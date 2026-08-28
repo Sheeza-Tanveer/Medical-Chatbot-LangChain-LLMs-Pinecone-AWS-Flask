@@ -1,4 +1,3 @@
-```yaml
 name: Deploy Application Docker Image to EC2 instance
 
 on:
@@ -77,4 +76,4 @@ jobs:
             -e GOOGLE_API_KEY="${{ secrets.GOOGLE_API_KEY }}" \
             -p 8080:8080 \
             "${{ steps.login-ecr.outputs.registry }}/${{ secrets.ECR_REPO }}:latest"
-```
+
