@@ -1,0 +1,9 @@
+.git
+.github
+.env
+__pycache__
+*.pyc
+.venv
+venv
+*.ipynb
+medical_chatbot.egg-info
