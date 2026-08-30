@@ -1,4 +1,27 @@
 # Build-a-Complete-Medical-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS
+An AI-powered medical chatbot built with Python, LangChain, Pinecone, Flask, and LLMs. The project uses a medical knowledge base to provide conversational responses and was containerized with Docker and deployed to AWS EC2 using Amazon ECR and GitHub Actions CI/CD.
+
+Note: The AWS deployment was used for demonstration/testing. The cloud infrastructure is no longer running.
+
+## Medical Chatbot
+<p align="center">
+  <img width="1145" height="668" alt="live-chatbot" src="https://github.com/user-attachments/assets/b52ff220-7b62-403f-8a3e-83a844b3c316" />
+</p>
+
+
+
+## Docker Container Running on AWS EC2
+<p align="center">
+
+<img width="1366" height="299" alt="ecr-image" src="https://github.com/user-attachments/assets/430a791a-7b81-45c1-91fc-846744e19cbe" />
+</p>
+
+
+
+## GitHub Actions CI/CD
+<p align="center">
+<img width="1362" height="512" alt="cicdpipeline" src="https://github.com/user-attachments/assets/0f9ba305-9f5d-426e-a096-f765c42ef1b7" />
+</p>
 
 # How to run?
 ### STEPS:
@@ -127,4 +150,5 @@ open up localhost:
    - AWS_DEFAULT_REGION
    - ECR_REPO
    - PINECONE_API_KEY
-   - OPENAI_API_KEY
+   - GOOGLE_API_KEY
+
